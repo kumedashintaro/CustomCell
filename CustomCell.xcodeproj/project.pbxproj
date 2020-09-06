@@ -13,6 +13,9 @@
 		DB5BAEFA2504C74A008FA231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5BAEF82504C74A008FA231 /* Main.storyboard */; };
 		DB5BAEFC2504C74C008FA231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5BAEFB2504C74C008FA231 /* Assets.xcassets */; };
 		DB5BAEFF2504C74C008FA231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5BAEFD2504C74C008FA231 /* LaunchScreen.storyboard */; };
+		DB5BAF0A2504C83A008FA231 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5BAF082504C83A008FA231 /* StationTableViewCell.swift */; };
+		DB5BAF0B2504C83A008FA231 /* StationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5BAF092504C83A008FA231 /* StationTableViewCell.xib */; };
+		DB5BAF0D2504C924008FA231 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5BAF0C2504C924008FA231 /* Station.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DB5BAEFB2504C74C008FA231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB5BAEFE2504C74C008FA231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB5BAF002504C74C008FA231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5BAF082504C83A008FA231 /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
+		DB5BAF092504C83A008FA231 /* StationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationTableViewCell.xib; sourceTree = "<group>"; };
+		DB5BAF0C2504C924008FA231 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				DB5BAEFB2504C74C008FA231 /* Assets.xcassets */,
 				DB5BAEFD2504C74C008FA231 /* LaunchScreen.storyboard */,
 				DB5BAF002504C74C008FA231 /* Info.plist */,
+				DB5BAF082504C83A008FA231 /* StationTableViewCell.swift */,
+				DB5BAF092504C83A008FA231 /* StationTableViewCell.xib */,
+				DB5BAF0C2504C924008FA231 /* Station.swift */,
 			);
 			path = CustomCell;
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			files = (
 				DB5BAEFF2504C74C008FA231 /* LaunchScreen.storyboard in Resources */,
 				DB5BAEFC2504C74C008FA231 /* Assets.xcassets in Resources */,
+				DB5BAF0B2504C83A008FA231 /* StationTableViewCell.xib in Resources */,
 				DB5BAEFA2504C74A008FA231 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB5BAEF72504C74A008FA231 /* ViewController.swift in Sources */,
+				DB5BAF0D2504C924008FA231 /* Station.swift in Sources */,
 				DB5BAEF32504C74A008FA231 /* AppDelegate.swift in Sources */,
+				DB5BAF0A2504C83A008FA231 /* StationTableViewCell.swift in Sources */,
 				DB5BAEF52504C74A008FA231 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
